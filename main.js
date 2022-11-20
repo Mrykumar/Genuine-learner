@@ -47,3 +47,17 @@ function opentab(evt, tabName) {
 
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+
+  
+// ---------------------------------login--------------------------------------
+ 
+let loginForm = document.querySelector('.login-form-container');
+
+document.querySelector('#login-btn').onclick = () =>{
+  loginForm.classList.toggle('active');
+}
+
+document.querySelector('#close-login-btn').onclick = () =>{
+  loginForm.classList.remove('active');
+}

@@ -7,16 +7,18 @@
 
 
 
-.header {
+.header img{
 
     padding-top: 0%;
-    min-height: 100vh;
+    height: auto;
     width: 100%;
-    background-image: url("/image/logo\ 2.jpeg");
     background-size: cover;
     background-position: center;
+    
 
 }
+    
+
 
 /* body {
     background-color: #EEE;
@@ -63,12 +65,12 @@ header nav .tabs {
 
 header nav .tabs .tab {
     display: block;
-    width: 176px;
+    width: 141px;
 }
 
 header nav .tabs .tab a[data-switcher] {
     display: block;
-    padding: 15px 30px;
+    padding: 12px 12px;
     text-decoration: none;
     color: #FFF;
     /* background-color: royalblue; */
@@ -455,14 +457,7 @@ header nav .tabs .tab.is-active a[data-switcher] {
     background-color: #4070F4;
   }
   
-  /* @media screen and (max-width: 768px) {
-    .slide-content{
-      margin: 0 10px;
-    }
-    .swiper-navBtn{
-      display: none;
-    }
-  } */
+  
 
 /* main {
     padding-left: 142px;
@@ -694,7 +689,7 @@ margin-top: 58px;
 }
 
 .intershipimage img{
-  lign-items: center;
+  align-items: center;
 background: #fff;
 border: 1px solid rgba(0,0,0,.1);
 height: 65px;
@@ -716,4 +711,21 @@ font-size: 15px;
 
 .day-time{
   color: #a0a3ab;
+}
+
+
+
+
+/* -----------------responsibe----------------------------- */
+
+
+
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
 }

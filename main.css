@@ -359,7 +359,7 @@ header nav .tabs .tab.is-active a[data-switcher] {
 /* ------------call to action------- */
 .cta {
   margin: 80px 0;
-  background-image: linear-gradient(to right, #3f2321, transparent), url(/image/library.jpg);
+  background-image: linear-gradient(to right, #3f2321, transparent), url(image/library.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 10px;

@@ -246,10 +246,6 @@ h2{
     font-size: 22px;
   }
   
-  .price2{
-    display: flex;
-    
-  }
   .card button {
     border: none;
     outline: 0;
@@ -281,26 +277,21 @@ h2{
   flex-wrap: wrap;
   margin-top: 1rem;
 }
+
+
 .card .buttons a{
   text-decoration: none;
   padding:4px;
   font-size: 18px;
   color:#444;
   border:.1rem solid #444;
-  width: 99px;
+  width: 225px;
   margin-bottom: 12px;
   border-radius: 23px;
 }
-
-
-
-/* .card .buttons a.buy{
-  background: #444;
-  color:#fff;
-  
-} */
- .card .buttons a.cart:hover{
-  background:#5cdfc0;
+.card .buttons i{
+  color: #5cdfc0;
+  padding-left: 18px;
 }
 
 .card .buttons a.buy:hover{
